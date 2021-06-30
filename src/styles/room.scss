@@ -4,7 +4,7 @@
         border-bottom: 1px solid #e2e2e2;
 
         .content {
-            max-width: 1128px;
+            max-width: 1120px;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
@@ -12,6 +12,15 @@
         
             > img {
                 max-height: 45px;
+            }
+
+            > div {
+                display: flex;
+                gap: 16px;
+
+                button {
+                    height: 40px;
+                }
             }
         }
     }
@@ -94,6 +103,10 @@
                     }
                 }
             }
+        }
+
+        .question-list {
+            margin-top: 32px;
         }
     }
 }
